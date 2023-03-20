@@ -1,0 +1,123 @@
+  .logo {
+    position: absolute;
+    left: 0;
+    margin-left: 50px;
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+  }
+  .header {
+    text-align: center;
+    height: 50px;
+    background-color: #1B2839;
+    padding-top: 0px;
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #1B2839;
+    }
+    .li-header li{
+      font-family: 'Open Sans' sans-serif;
+      font-style: bold;
+      font-weight: 700;
+      display: inline;
+      text-align: center;
+      list-style: none;
+    }
+    a {
+      display: inline-block;
+      text-decoration: none;
+      width: 209px;
+      padding: .75rem 0;
+      margin: 0;
+      color: #FFFFFF;
+    }
+
+    .two:hover ~ hr {
+      margin-left: 20%;
+    }
+
+    .three:hover ~ hr {
+      margin-left: 40%;
+    }
+
+    .four:hover ~ hr {
+      margin-left: 60%;
+    }
+    .five:hover ~ hr {
+        margin-left:80%;
+    }
+
+    hr {
+      height: .25rem;
+      width: 20%;
+      margin: 0;
+      background:#214a81;
+      border: none;
+      transition: .3s ease-in-out;
+    }
+
+    .header a:hover {
+      text-decoration: none;
+    }
+
+    ul {
+      padding-inline-start: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 25px;
+      color: #FFFFFF;
+      font-style: italic;
+    }
+    .leap {
+      align: middle;
+      margin-top: 50px;
+      margin-left: 150px;
+    }
+    .thecreed {
+      align: left;
+      vertical-align: middle;
+      float:left;
+      margin-top: 50px;
+      margin-left: 50px;
+      margin-right: 10px;
+    }
+    .openworld {
+      align: left;
+      vertical-align: middle;
+      float:left;
+      margin-top: 50px;
+      margin-left: 50px;
+      margin-right: 10px;
+    }
+    .knowledge {
+      align: left;
+      vertical-align: middle;
+      float:left;
+      margin-top: 50px;
+      margin-left: 50px;
+      margin-right: 10px;
+    }
+    .learnmore {
+      align: left;
+      vertical-align: middle;
+      float:left;
+      margin-top: 50px;
+      margin-left: 50px;
+      margin-right: 10px;
+    }
+    p1 {
+      font-size: 150%;
+      color: #FFFFFF;
+    }
+    footer {
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 80%;
+      font-style: italic;
+      position: fixed;
+      bottom: 0;
+    }
